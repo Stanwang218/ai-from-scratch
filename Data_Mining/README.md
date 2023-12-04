@@ -1,0 +1,1 @@
+This is a simple implementation of two basic data mining algorithms, aprori and FP-Growth, based on the dataset retail.txt.
