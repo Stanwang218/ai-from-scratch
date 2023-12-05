@@ -11,6 +11,23 @@ d_v = 8 # length of V
 d_ff = 2048 # length of feed forward network
 heads = 6 # number of heads
 batch_size = 100
+src_len = 5
+tgt_len = 5
+
+def PositionalEncoding_table(n_pos, d_model):
+    def calc_angle(posi, i):
+        if i % 2 != 0:
+            i = i - 1
+        return posi / np.power(10000, 2*i / d_model)
+    
+    def get_posi_vec(posi):
+        return [calc_angle(posi, i) for i in range(d_model)] # a list with d_model length
+    
+    sinusoid_table = np.array([get_posi_vec(i) for i in range(n_pos)])
+    sinusoid_table[:, 0::2] = np.sin(sinusoid_table[:, 0::2]) # even index
+    sinusoid_table[:, 1::2] = np.sin(sinusoid_table[:, 1::2]) # odd index
+    return sinusoid_table
+    
 
 class ScaledDot_Product(nn.Module):
     def __init__(self):
@@ -77,5 +94,6 @@ if __name__ == '__main__':
     layer = Encoder_Layer()
     t = torch.rand((2, 10, 512))
     # l = nn.Conv1d(512, 2048,1)
-    summary(layer, (10,512))
+    # summary(layer, (10,512))
     print(layer(t).shape)
+    print(PositionalEncoding_table(src_len, d_model).shape)
