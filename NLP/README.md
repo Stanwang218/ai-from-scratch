@@ -14,7 +14,8 @@ torch.eq: element-wise compare, return bool value.
 
 torch.Tensor.expand: expand one dimension to larger size, input is the desired size
 torch.Tensor.masked_filled_(mask, value): mask tensor with value in the position of true in mask
-torch.Tensor.repeat(int/size): similar to np.tile(), eg: the size of tensor is [4], repeat(4, 2) -> the shape becomes (4, 8)
+torch.Tensor.repeat(int/size): similar to np.tile(), eg: the size of tensor is [1, 2, 3, 4], repeat(2, 2) -> the shape becomes (4, 8)
+[[1, 2, 3, 4, 1, 2, 3, 4], [1, 2, 3, 4, 1, 2, 3, 4]]
 torch.Tensor.contiguous: transform the tensor into tensor with contiguous memory storage
 
 #### Numpy Function

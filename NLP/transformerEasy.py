@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import numpy as np
-from torchsummary import summary
+from torchinfo import summary
 
 # after embedding: batch_size, source_len, d_model
 
@@ -36,12 +36,12 @@ def get_padding(q, k):
     # the shape of k: B, len_k
     batch_size, len_q = q.size()
     batch_size, len_k = k.size() 
-    # if there are trivial words, set it true, later we will mask it
     padding_tensor = k.eq(0).unsqueeze(1) # B, 1, len_k
     padding_tensor = padding_tensor.expand(batch_size, len_q, len_k)
     return padding_tensor # B, len_q, len_k
 
 def get_subsequent_padding(seq):
+    # B, 
     seq_shape = [seq.size(0), seq.size(1), seq.size(1)]
     subsequent_mask = np.triu(np.ones(seq_shape), k = 1)
     return torch.from_numpy(subsequent_mask).byte() # uint8 type, upper limit is 255
@@ -53,7 +53,7 @@ class ScaledDot_Product(nn.Module):
     
     def forward(self, q_s:torch.TensorType, k_s:torch.TensorType, v_s:torch.TensorType, mask):
         dot_product = torch.matmul(q_s, k_s.transpose(-1, -2)) / np.sqrt(d_k)
-        dot_product.masked_fill_(mask, 1e-9)
+        dot_product.masked_fill_(mask, -1e-9)
         dot_product = nn.Softmax(dim=-1)(dot_product)
         result = torch.matmul(dot_product, v_s)
         # (B, H, S, D(K))
@@ -151,7 +151,7 @@ class Decoder(nn.Module):
         sequence = [tgt_len]
         sequence.extend([i for i in range(1, tgt_len)])
         dec_outputs = self.voc_embedding(dec_input) + self.positional_encode(torch.LongTensor(sequence))
-        self_dec_mask = get_subsequent_padding(dec_input)
+        self_dec_mask = get_subsequent_padding(dec_input) # B, src_len, src_len
         self_dec_pad_mask = get_padding(dec_input, dec_input)
         self_total_mask = torch.gt(self_dec_mask + self_dec_pad_mask, 0)
         for layer in self.layers:
@@ -175,7 +175,14 @@ class Transformer(nn.Module):
 if __name__ == '__main__':
     transformer = Transformer()
     tensor = torch.rand(1, 5).type(torch.LongTensor)
-    print(transformer(tensor, tensor).shape)
-    nn.Transformer
+    # print(transformer(tensor, tensor).shape)
+    test = nn.Transformer(batch_first=True)
+    src_input_size = (10, 512)
+    tgt_input_size = (10, 512)
+    # src = torch.rand([10, 10, 512])
+    # tgt = torch.rand([10, 50, 512])
+
+    # print(test(src, tgt).shape)
+    summary(test, input_size=[src_input_size, tgt_input_size])
     
     # print(PositionalEncoding_table(src_len, d_model).shape)
