@@ -4,15 +4,15 @@ This a repo for diving into all kinds of basic implementation of ai algorithms. 
 ### Computer Vision
 Image: Resnet, Mobilenet, ViT
 
-Video: <a src = "https://papers.nips.cc/paper/2020/file/e1228be46de6a0234ac22ded31417bc7-Paper.pdf">TS-CAN</a>, 
-<a src = "https://arxiv.org/abs/1811.08383">TSM</a>
+Video: <a href = "https://papers.nips.cc/paper/2020/file/e1228be46de6a0234ac22ded31417bc7-Paper.pdf">TS-CAN</a>, 
+<a href = "https://arxiv.org/abs/1811.08383">TSM</a>
 
 ### NLP
-<a src = "https://arxiv.org/abs/1301.3781">word2vec</a>, 
-<a src = "https://arxiv.org/abs/1706.03762">transformer</a>
+<a href = "https://arxiv.org/abs/1301.3781">word2vec</a>, 
+<a href = "https://arxiv.org/abs/1706.03762">transformer</a>
 
 ### Data Mining
-Apriori, <a src = "https://www.cs.sfu.ca/~jpei/publications/sigmod00.pdf">FP-growth</a>
+Apriori, <a href = "https://www.cs.sfu.ca/~jpei/publications/sigmod00.pdf">FP-growth</a>
 
 ### Machine Learning
 Kmeans
