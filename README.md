@@ -1,5 +1,6 @@
 # ai-from-scratch
 This a repo for diving into all kinds of basic implementation of ai algorithms. Codes are all based on Pytorch and Numpy. And this is for better understanding the principles of various models. 
+&#128540 &#128540
 
 ### Computer Vision
 Image: Resnet, Mobilenet, ViT
