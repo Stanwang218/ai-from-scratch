@@ -3,7 +3,7 @@ This a repo for diving into all kinds of basic implementation of ai algorithms. 
 
 
 ### Computer Vision
-Image: Resnet, Mobilenet, ViT
+Image: <a href = "https://arxiv.org/abs/2010.11929">ViT</a>
 
 Video: <a href = "https://papers.nips.cc/paper/2020/file/e1228be46de6a0234ac22ded31417bc7-Paper.pdf">TS-CAN</a>, 
 <a href = "https://arxiv.org/abs/1811.08383">TSM</a>
