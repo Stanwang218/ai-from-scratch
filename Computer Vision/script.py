@@ -41,7 +41,7 @@ def train_script():
     
 def test_script():
     model = VAE()
-    model.load_state_dict(torch.load('/Users/code/python/machine learning/AI_from_scratch/Computer Vision/vae_model.pth', map_location=torch.device("cpu")))
+    model.load_state_dict(torch.load('/Users/code/python/machine learning/AI_from_scratch/Computer Vision/vae_model_new.pth', map_location=torch.device("cpu")))
     num_samples = 90
     latent_variables = torch.randn(num_samples, model.latent_dim)
     x = model.first_decode_layer(latent_variables).view(-1, 512, 2, 2)
