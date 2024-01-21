@@ -85,11 +85,11 @@ class VAE(nn.Module):
         x = self.final_layer(x)
         return [x, input_pic, miu, log_var]
     
-    def loss_function(self, recon_pic, input_pic, miu, log_var):
+    def loss_function(self, recon_pic, input_pic, miu, log_var, scaled = 0.01):
         recon_loss = F.mse_loss(recon_pic, input_pic)
         kld_loss = torch.mean(-0.5 * torch.sum(1 + log_var - miu ** 2 - log_var.exp(), dim = 1), dim = 0)
-        loss = recon_loss + kld_loss
-        return [loss, recon_loss.detach(), kld_loss.detach()]
+        loss = recon_loss + scaled * kld_loss
+        return [loss, recon_loss.detach(), scaled * kld_loss.detach()]
     
 if __name__ == '__main__':
     model = VAE()
