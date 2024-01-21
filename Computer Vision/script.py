@@ -24,7 +24,6 @@ train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=64,
 test_dataset = torchvision.datasets.MNIST(root='/Users/code/python/machine learning/dataset', train=False, download=False, transform=transform)
 test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=64, shuffle=True)
 
-print(len(train_loader))
 
 class celeba_dataset(Dataset):
     def __init__(self, path = "/Users/code/python/machine learning/dataset/celeba/pic") -> None:
@@ -48,13 +47,15 @@ def train_script():
     model = VAE()
     epoch = 10
     optimizer = optim.Adam(model.parameters(), lr=0.001)
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'max', factor=0.5, 
+                             patience=5, threshold=0.001, cooldown=0,
+                             min_lr=0.0001, verbose=True)
+
     for ep in range(epoch):
         total_loss = 0
         recon_loss = 0
         kl_loss = 0
-        times = 0
         for x, y in train_loader:
-            times += 1
             optimizer.zero_grad()
             output = model(x)
             loss_res = model.loss_function(output[0], output[1], output[2], output[3], 0.5)
@@ -64,41 +65,31 @@ def train_script():
             total_loss += loss.item()
             recon_loss += loss_res[1]
             kl_loss += loss_res[2]
-            if times > 15:
-                break
             
-        print(f"reconstruction loss: {recon_loss / (times)}")
-        print(f"kl loss: {kl_loss / (times)}")
-        print(f"total loss : {total_loss / (times)}")
+        print(f"reconstruction loss: {recon_loss / len(train_loader)}")
+        print(f"kl loss: {kl_loss / (len(train_loader))}")
+        print(f"total loss : {total_loss / len(train_loader)}")
+        scheduler.step(total_loss / len(train_loader))
 
     torch.save(model.state_dict(), './cele_vae_model.pth')
     
 def test_script():
     model = VAE()
-    model.load_state_dict(torch.load('/Users/code/python/machine learning/AI_from_scratch/Computer Vision/cele_vae_model.pth', map_location=torch.device("cpu")))
-    num_samples = 90
-    # test_loader = DataLoader(celeba_dataset(), batch_size=128, shuffle=True)
-    # print(len(train_dataset))
-    for x, y in test_loader:
+    model.load_state_dict(torch.load('./cele_vae_model.pth', map_location=torch.device("cpu")))
+    # for x, y in test_loader:
+    for x in DataLoader(celeba_dataset(), batch_size=128, shuffle=True):
         out = model(x)
-        for i in range(64):
-            img = out[0][0, 0, : ,].cpu().detach().numpy()
-            img_resized = Image.fromarray((img * 255).astype('uint8'), 'L').resize((32, 32))
-            img_resized_np = np.array(img_resized) / 255.0  # 转换为浮点数
-            
-            plt.imshow(img_resized_np, cmap='gray')
-            plt.show()
-        break
-    # latent_variables = torch.randn(num_samples, model.latent_dim)
-    # x = model.first_decode_layer(latent_variables).view(-1, 512, 2, 2)
-    # newPic = model.final_layer(model.decoder(x))
-    # print(newPic.shape)
-    # for i in range(num_samples // 9):
-    #     image = newPic[i : i + 9, 0, :, :].cpu().detach().numpy()
-    #     concat_img = np.concatenate([np.concatenate([image[3*j + i, :, :] for i in range(3)], axis=1) for j in range(3)], axis=0)
-    #     plt.imshow(concat_img, cmap='gray')
-    #     plt.title('Sample Image')
-    #     plt.show() 
+        img = out[0].cpu().detach().numpy()
+        origin_img = x.cpu().detach().numpy()
+        origin_img = np.concatenate([np.concatenate([origin_img[8*j + i, 0, :, :] for i in range(8)], axis=1) for j in range(8)], axis=0)
+        concat_img = np.concatenate([np.concatenate([img[8*j + i, 0, :, :] for i in range(8)], axis=1) for j in range(8)], axis=0)
+        fig, axes = plt.subplots(1, 2, figsize=(10, 5))
+        axes[0].imshow(concat_img, cmap='gray')
+        axes[0].set_title("Construction Picture")
+        axes[1].imshow(origin_img, cmap='gray')
+        axes[1].set_title("Original Picture")
+        plt.show() 
+        
 
         
 train_script()
