@@ -27,4 +27,4 @@ FP-Growth: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/D
 ### Machine Learning
 Kmeans: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/kmeans.py">[CODE]</a>
 
-Decision Tree: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/kmeans.py">[CODE]</a>
+Decision Tree: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/decisionTree.py">[CODE]</a>
