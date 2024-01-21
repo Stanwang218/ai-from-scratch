@@ -71,11 +71,11 @@ def train_script():
         print(f"total loss : {total_loss / len(train_loader)}")
         scheduler.step(total_loss / len(train_loader))
 
-    torch.save(model.state_dict(), './cele_vae_model.pth')
+    torch.save(model.state_dict(), './pth/cele_vae_model.pth')
     
 def test_script():
     model = VAE()
-    model.load_state_dict(torch.load('./cele_vae_model.pth', map_location=torch.device("cpu")))
+    model.load_state_dict(torch.load('./pth/cele_vae_model.pth', map_location=torch.device("cpu")))
     # for x, y in test_loader:
     for x in DataLoader(celeba_dataset(), batch_size=128, shuffle=True):
         out = model(x)
