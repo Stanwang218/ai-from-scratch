@@ -25,6 +25,7 @@ Apriori: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/Dat
 FP-Growth: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/DataMining/My_FP_growth.py">[CODE]</a><a href = "https://www.cs.sfu.ca/~jpei/publications/sigmod00.pdf">[PAPER]</a>
 
 ### Machine Learning
-Kmeans: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/kmeans.py">[CODE]</a>
+Cluster:
+Kmeans: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/kmeans.py">[CODE]</a>, <a href = "">DBSCAN</a>
 
 Decision Tree: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/decisionTree.py">[CODE]</a>
