@@ -26,6 +26,6 @@ FP-Growth: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/D
 
 ### Machine Learning
 Cluster:
-Kmeans: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/kmeans.py">[CODE]</a>, <a href = "">DBSCAN</a>
+Kmeans: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/clusterAlgo/kmeansClass.py">[CODE]</a>, DBSCAN:<a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/clusterAlgo/dbscan.py">[CODE]</a>
 
 Decision Tree: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/MachineLearning/decisionTree.py">[CODE]</a>
