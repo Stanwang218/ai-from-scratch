@@ -1,0 +1,260 @@
+<START> What's the weather like today <END>
+<START> Will it rain tomorrow <END>
+<START> What's the weather forecast for the weekend <END>
+<START> Is there a typhoon next week <END>
+<START> What's the current temperature <END>
+<START> Please tell me today's Air Quality Index AQI <END>
+<START> Will there be strong winds tomorrow <END>
+<START> Is there a warming trend for the next week <END>
+<START> Will it rain at three o'clock this afternoon <END>
+<START> Is there going to be a cold wave recently <END>
+<START> What's the weather forecast for next Monday <END>
+<START> Can you give me an update on the weather in the evening <END>
+<START> Is there any chance of thunderstorms in the coming days <END>
+<START> What's the UV index for tomorrow <END>
+<START> Is there any fog expected in the early morning tomorrow <END>
+<START> How's the weather outlook for the coastal areas this weekend <END>
+<START> Can you provide a weather update for the mountain regions <END>
+<START> What's the humidity level expected for tomorrow afternoon <END>
+<START> Will there be any temperature fluctuations throughout the day tomorrow <END>
+<START> Can you tell me if there are any weather warnings issued for our area <END>
+<START> What's the weather like in New York today <END>
+<START> Will it be sunny in Los Angeles tomorrow <END>
+<START> Can you tell me the temperature in London right now <END>
+<START> What's the weather forecast for Tokyo next week <END>
+<START> Is there a chance of snow in Chicago this weekend <END>
+<START> How's the weather in Sydney this afternoon <END>
+<START> Please provide the AQI for Beijing today <END>
+<START> Will there be any thunderstorms in Paris tomorrow <END>
+<START> Can you tell me the UV index for Shanghai tomorrow <END>
+<START> Is it going to rain heavily in Mumbai this evening <END>
+<START> Can you recommend a good Italian restaurant nearby <END>
+<START> I'm looking for a sushi place in the city center <END>
+<START> What are some popular burger joints in this area <END>
+<START> Is there a vegetarian-friendly restaurant in town <END>
+<START> I want to try some authentic Chinese food. Any recommendations <END>
+<START> Are there any Michelin-starred restaurants around here <END>
+<START> Can you suggest a romantic restaurant for a date night <END>
+<START> I need to find a family-friendly restaurant with a kids' menu <END>
+<START> Where can I find a good seafood restaurant by the waterfront <END>
+<START> Any recommendations for a cozy café with good coffee <END>
+<START> Can you recommend a good Thai restaurant nearby <END>
+<START> I'm craving for some Mexican food. Any suggestions <END>
+<START> Where can I find a cozy brunch spot in this neighborhood <END>
+<START> Is there a steakhouse with outdoor seating around here <END>
+<START> What's a popular Indian restaurant in the downtown area <END>
+<START> Any recommendations for a fancy French restaurant for a special occasion <END>
+<START> I need to find a quick lunch place with healthy options <END>
+<START> Are there any BBQ joints known for their ribs nearby <END>
+<START> Can you suggest a trendy rooftop bar with a view <END>
+<START> I'm in the mood for some authentic Japanese ramen. Where should I go <END>
+<START> Where can I get the best pizza in town <END>
+<START> Any hidden gem restaurants off the beaten path <END>
+<START> I want to try some fusion cuisine. Any ideas <END>
+<START> Is there a dessert café that's open late at night <END>
+<START> What's the most popular seafood restaurant in this area <END>
+<START> I'm looking for a budget-friendly eatery with hearty portions <END>
+<START> Can you recommend a good wine bar with a selection of cheeses <END>
+<START> Are there any tapas bars with live music around here <END>
+<START> Where can I find a good place for a Sunday brunch buffet <END>
+<START> I need to find a restaurant that can accommodate a large group <END>
+<START> What's a good place for a romantic dinner with candlelight ambiance <END>
+<START> Any recommendations for a vegan restaurant with gluten-free options <END>
+<START> I'm looking for a hole-in-the-wall diner with classic comfort food <END>
+<START> Where can I find the best sushi rolls in town <END>
+<START> What's a popular spot for happy hour drinks after work <END>
+<START> Can you suggest a buffet restaurant with international cuisine <END>
+<START> Are there any farm-to-table restaurants focusing on local ingredients <END>
+<START> I want to try some Korean BBQ. Any good places nearby <END>
+<START> Where can I get a good cup of artisanal coffee <END>
+<START> What's a trendy bistro with creative small plates <END>
+<START> I need to find a restaurant that offers delivery service <END>
+<START> Can you recommend a popular food truck in the downtown area <END>
+<START> What's the best place for brunch with bottomless mimosas <END>
+<START> Any recommendations for a themed restaurant with unique decor <END>
+<START> I'm looking for a casual diner for a late-night meal <END>
+<START> Where can I find a restaurant with a kids' play area <END>
+<START> What's a good place for a business lunch meeting <END>
+<START> Are there any all-you-can-eat buffets in this neighborhood <END>
+<START> Can you suggest a restaurant with outdoor seating and heaters <END>
+<START> I'm interested in trying some local cuisine. Any suggestions <END>
+<START> What time is the next tram to downtown <END>
+<START> How long do I have to wait for the next bus to the airport <END>
+<START> Is there a tram coming soon to the city center <END>
+<START> When is the next bus to the train station <END>
+<START> Can you tell me when the next tram to the university is <END>
+<START> How often do the buses run on this route <END>
+<START> What's the schedule for the next tram to the shopping district <END>
+<START> Do you know when the next bus to the hospital arrives <END>
+<START> When is the next tram to the museum <END>
+<START> Can you check when the next bus to the suburbs is <END>
+<START> How frequent are the trams during rush hour <END>
+<START> Is there a bus scheduled to arrive at this stop soon <END>
+<START> What time does the next tram to the park depart <END>
+<START> When is the next bus to the city outskirts <END>
+<START> Can you find out when the next tram to the beach is <END>
+<START> How long does it take for the next bus to arrive <END>
+<START> Is there a tram expected to arrive shortly <END>
+<START> When does the next bus to the industrial area leave <END>
+<START> Can you tell me the timetable for the next tram to the concert hall <END>
+<START> What's the next bus route after this one <END>
+<START> How many stops until the next tram arrives <END>
+<START> Do you have information on the next bus to the residential area <END>
+<START> When's the next tram heading to the sports stadium <END>
+<START> Is there a bus stop nearby <END>
+<START> What's the ETA for the next tram to downtown <END>
+<START> How far away is the next bus stop <END>
+<START> Can you tell me when the next tram to the city square is <END>
+<START> When's the next bus arriving at this stop <END>
+<START> What's the schedule for the next tram to the library <END>
+<START> Is there a bus scheduled to stop here soon <END>
+<START> When's the next tram to the concert hall <END>
+<START> Do you know when the next bus to the shopping mall arrives <END>
+<START> How long until the next tram arrives at this stop <END>
+<START> Can you tell me when the next bus to downtown is <END>
+<START> What's the next tram route after this one <END>
+<START> When does the next bus to the city center leave <END>
+<START> Can you find out when the next tram to the museum is <END>
+<START> Is there a bus stop nearby that goes to the university <END>
+<START> When's the next tram heading to the park <END>
+<START> Is there a bus expected to arrive at this stop soon <END>
+<START> How can I find out when the next tram to the city center is arriving <END>
+<START> Is there an app I can use to track the arrival time of the next bus <END>
+<START> What's the quickest way to find the next tram schedule <END>
+<START> Can you help me locate the nearest bus stop <END>
+<START> Where can I find information about the next tram's route <END>
+<START> How do I know if the next bus is running on schedule <END>
+<START> Is there a website where I can check the next tram's timetable <END>
+<START> Can you assist me in finding the next bus route to the museum <END>
+<START> How do I find out if there are any delays in the next tram service <END>
+<START> Is there a phone number I can call to inquire about the next bus arrival time <END>
+<START> What's the best way to get real-time updates on the next tram's arrival <END>
+<START> Can you recommend a reliable app for tracking the next bus schedule <END>
+<START> How do I access the timetable for the next tram to the airport <END>
+<START> Is there an online map showing the locations of all bus stops <END>
+<START> Can you provide information on the accessibility of the next tram for wheelchair users <END>
+<START> How do I find out if the next bus is crowded <END>
+<START> Is there a way to know if the next tram has bike racks <END>
+<START> Can you help me find the next bus route that goes through the city outskirts <END>
+<START> How do I know if the next tram accepts contactless payment <END>
+<START> Is there an easy way to find out the next bus's departure platform <END>
+<START> Can you assist me in finding the next tram route to the concert hall <END>
+<START> How do I find out if the next bus has Wi-Fi onboard <END>
+<START> Is there a way to check the next tram's seating availability <END>
+<START> Can you help me find the next bus stop with restroom facilities <END>
+<START> How do I find out if the next tram has audio announcements <END>
+<START> Is there an app that alerts me when the next bus is approaching <END>
+<START> Can you assist me in finding the next tram route to the shopping district <END>
+<START> How do I know if the next bus is equipped with air conditioning <END>
+<START> Is there a way to check if the next tram allows pets onboard <END>
+<START> Can you provide information on the frequency of the next bus service <END>
+<START> How do I find out if the next tram has designated priority seating <END>
+<START> Is there a website where I can report issues with the next bus service <END>
+<START> Can you assist me in finding the next tram route to the university <END>
+<START> How do I find out if the next bus offers onboard entertainment <END>
+<START> Is there a way to check if the next tram has USB charging ports <END>
+<START> Can you provide information on the ticket prices for the next bus <END>
+<START> How do I know if the next tram has displays showing upcoming stops <END>
+<START> Is there an app that allows me to pay for the next bus fare electronically <END>
+<START> Can you assist me in finding the next tram route to the sports stadium <END>
+<START> How do I find out if the next bus offers express service <END>
+<START> I need to book a hotel room for two nights in Paris <END>
+<START> Can you help me find a budget-friendly hotel in London <END>
+<START> What are the best luxury hotels in New York City <END>
+<START> I'm looking for a hotel with a swimming pool in Barcelona <END>
+<START> How can I book a hotel near Times Square in Manhattan <END>
+<START> Is it possible to reserve a pet-friendly hotel room in San Francisco <END>
+<START> Can you recommend a boutique hotel in Rome's historic center <END>
+<START> I need to find a hotel with a conference room for a business trip <END>
+<START> What are the top-rated hotels with ocean views in Miami <END>
+<START> How do I book a hotel with a shuttle service to the airport <END>
+<START> Can you help me find a hotel with free breakfast in Amsterdam <END>
+<START> What are the best hotels near Disneyland in Orlando <END>
+<START> I'm looking for a romantic hotel with a Jacuzzi in Las Vegas <END>
+<START> How can I reserve a hotel with a rooftop bar in Bangkok <END>
+<START> Can you recommend a family-friendly hotel with a kids' club in Dubai <END>
+<START> What are the most affordable hotels in Sydney's city center <END>
+<START> I need to find a hotel with wheelchair-accessible rooms in Tokyo <END>
+<START> How do I book a hotel with a gym and spa facilities in Zurich <END>
+<START> Can you help me find a cozy bed and breakfast in Edinburgh <END>
+<START> What are the best hotels with mountain views in Aspen <END>
+<START> I'm looking for a hotel with 24-hour room service in Singapore <END>
+<START> How can I reserve a hotel with a balcony overlooking the sea in Santorini <END>
+<START> Can you recommend a historic hotel with character in Prague <END>
+<START> I need to find a hotel with a business center for my upcoming trip <END>
+<START> What are the top-rated boutique hotels in Florence <END>
+<START> Can you help me book a hotel with a private beach in Maldives <END>
+<START> How do I find a hotel with a complimentary airport shuttle in Cancun <END>
+<START> I'm looking for a hotel with traditional charm in Kyoto <END>
+<START> What are the best hotels with a view of the Eiffel Tower in Paris <END>
+<START> Can you recommend a budget hotel with clean rooms in Berlin <END>
+<START> How can I reserve a hotel with a rooftop pool in Los Angeles <END>
+<START> Is it possible to book a hotel with a fireplace in the room in Aspen <END>
+<START> Can you help me find a hotel with a hot tub in the room in Napa Valley <END>
+<START> What are the top-rated eco-friendly hotels in Costa Rica <END>
+<START> I'm looking for a hotel with a complimentary breakfast buffet in Barcelona <END>
+<START> How do I book a hotel with a historic charm in Charleston <END>
+<START> Can you recommend a pet-friendly hotel with a dog park in Seattle <END>
+<START> I need to find a hotel with a balcony and oceanfront view in Miami Beach <END>
+<START> What are the best hotels with a rooftop terrace in New York City <END>
+<START> Can you help me book a hotel with a garden courtyard in Kyoto <END>
+<START> Can you recommend any popular tourist attractions near my current location <END>
+<START> What are some must-visit landmarks in this city <END>
+<START> I'm looking for some interesting places to visit nearby. Any suggestions <END>
+<START> How do I find historical sites near me <END>
+<START> Can you help me locate famous museums in the area <END>
+<START> What are the top-rated parks or gardens nearby <END>
+<START> I want to explore cultural attractions nearby. Where should I go <END>
+<START> How can I find the nearest art galleries <END>
+<START> Are there any iconic monuments or statues close by <END>
+<START> Can you suggest any unique or off-the-beaten-path attractions nearby <END>
+<START> Where can I find information about local festivals or events <END>
+<START> I'm interested in visiting architectural landmarks nearby. Any recommendations <END>
+<START> How do I find scenic viewpoints or observation decks nearby <END>
+<START> What are some family-friendly attractions or amusement parks nearby <END>
+<START> Can you recommend any historical neighborhoods or districts to explore <END>
+<START> Where can I find information about walking tours or guided tours nearby <END>
+<START> Are there any famous theaters or performance venues nearby <END>
+<START> How do I find outdoor recreational activities or adventure spots nearby <END>
+<START> Can you help me locate any famous landmarks or points of interest nearby <END>
+<START> What are some hidden gems or secret spots to discover nearby <END>
+<START> I want to explore religious sites or spiritual landmarks nearby. Any suggestions <END>
+<START> Where can I find information about local markets or shopping districts <END>
+<START> Are there any famous bridges or architectural marvels nearby <END>
+<START> Can you suggest any haunted or paranormal sites to visit nearby <END>
+<START> How do I find information about local cultural or heritage centers <END>
+<START> Are there any wildlife reserves or nature reserves nearby <END>
+<START> Can you recommend any food or culinary tours to explore nearby <END>
+<START> What are some educational attractions or science museums nearby <END>
+<START> Where can I find information about local historical reenactments or living history museums <END>
+<START> Are there any famous filming locations or movie sets nearby <END>
+<START> Can you suggest any famous lighthouses or maritime landmarks nearby <END>
+<START> How do I find information about local wineries or breweries <END>
+<START> Are there any famous street art or graffiti spots nearby <END>
+<START> Can you recommend any beautiful botanical gardens or arboretums nearby <END>
+<START> Where can I find information about local music festivals or concerts <END>
+<START> Are there any famous caves or underground attractions nearby <END>
+<START> Can you suggest any scenic drives or road trip routes nearby <END>
+<START> What are some famous historical battlefields or military sites nearby <END>
+<START> Where can I find information about local cultural festivals or celebrations <END>
+<START> Can you recommend any famous observatories or stargazing spots nearby <END>
+<START> Excuse me, can you tell me how to get to the nearest subway station <END>
+<START> Hi, I'm a bit lost. Could you please direct me to the nearest bus stop <END>
+<START> Hey there, do you know the way to the city center <END>
+<START> Hello, I'm looking for the nearest ATM. Can you point me in the right direction <END>
+<START> Hi, can you help me find my way to the nearest hospital <END>
+<START> Excuse me, I'm trying to find the post office. Could you give me directions <END>
+<START> Hi, do you know how to get to the nearest supermarket <END>
+<START> Hello, I'm looking for the nearest park. Can you tell me how to get there <END>
+<START> Hey, could you please tell me where the nearest pharmacy is <END>
+<START> Hi there, do you know how to get to the airport from here <END>
+<START> Excuse me, can you help me find the nearest taxi stand <END>
+<START> Hi, I'm looking for the train station. Can you give me directions <END>
+<START> Hello, do you know where I can find the nearest tourist information center <END>
+<START> Hi, can you tell me how to get to the convention center <END>
+<START> Excuse me, do you know where I can catch the next shuttle bus <END>
+<START> Hello, I'm looking for the nearest car rental service. Can you help me <END>
+<START> Hi, can you tell me how to get to the nearest shopping mall <END>
+<START> Excuse me, I'm trying to find the nearest library. Could you help me <END>
+<START> Hey, do you know how to get to the stadium from here <END>
+<START> Hello, I'm looking for the nearest coffee shop. Can you give me directions <END>
