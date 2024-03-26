@@ -1,5 +1,5 @@
 # ai-from-scratch
-This a repo for diving into all kinds of basic implementation of ai algorithms. Codes are all based on Pytorch and Numpy. And this is for better understanding the principles of various models. 
+This is a repo for diving into all kinds of basic implementation of AI algorithms. Codes are all based on Pytorch and Numpy. And this is for better understanding the principles of various models. 
 
 
 ### Computer Vision
@@ -18,6 +18,8 @@ TSM: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/Compute
 word2vec: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/NLP/word2vec.py">[CODE]</a><a href = "https://arxiv.org/abs/1301.3781">[PAPER]</a>
 
 transformer: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/NLP/transformer.py">[CODE]</a><a href = "https://arxiv.org/abs/1706.03762">[PAPER]</a>
+
+Seq2Seq: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/NLP/seq2seq/dialogueSys.py">[CODE]</a><a href = "https://arxiv.org/abs/1409.3215">[PAPER]</a>
 
 ### Data Mining
 Apriori: <a href = "https://github.com/Stanwang218/ai-from-scratch/blob/main/DataMining/Apriori.py">[CODE]</a>

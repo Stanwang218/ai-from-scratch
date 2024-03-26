@@ -17,3 +17,6 @@ Model output: is scheduled departs at 10:30 AM...
 The corresponding attention map
 
 <img src="./pic/att.png"></img>
+
+Result Example:
+<img src="./pic/screenshot.png"></img>
